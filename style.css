@@ -17,10 +17,10 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #bde0fe;
+    background-color: aliceblue;
 }
 .Calculator{
-    box-shadow: 6px 6px 13px aliceblue,
+    box-shadow: 6px 6px 13px ,
                 6px 6px 13px rgba(0, 0, 0, .16);
     border-radius: 28px;
     padding: 16px;
@@ -63,4 +63,10 @@ button{
       background-color: aliceblue;
     border-radius: 20px;
 
+}
+
+@media screen and (max-width: 300px) {
+    .calculator {
+        width: 90%;
+    }
 }
